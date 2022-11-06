@@ -174,6 +174,7 @@ img {
 
 .navbar__link {
     font-size: 1.2rem;
+
 }
 
 .navbar__item:hover {
@@ -279,7 +280,12 @@ img {
 
 
 .about {
-    background-color: #2c96a5;
+    background-color: var(--bg-color);
+}
+
+
+.about__card-title {
+    color: var(--text-primary);
 }
 
 .about__description {
@@ -288,9 +294,7 @@ img {
     margin: 0;
 }
 
-.section__title {
-    color: #03051c;
-}
+
 
 .about__cards {
     display: flex;
@@ -303,8 +307,120 @@ img {
 }
 
 .about__card {
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
     padding: 4rem 2rem 2rem;
     box-shadow: var(--box-shadown);
+}
+
+
+.about__card .bx {
+    padding: 12px;
+    background-color: #191d50;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.about__tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.about__tags {
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    background-color: black;
+    font-size: var(--smoller-font-size);
+    border-radius: 5px;
+    font-weight: var(--font-semi-bold);
+}
+
+.projects__container {
+    gap: 2rem;
+}
+
+.projects__inner {
+    margin: 0;
+}
+
+.project__image {
+    box-shadow: var(--box-shadown);
+}
+
+.project__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.project__info {
+    padding: 1rem;
+    border: 1px solid white;
+}
+
+.project__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: .2rem;
+
+}
+
+/*Contac*/
+
+.contact {
+    background-color: #191d50;
+}
+
+.contact__container {
+    gap: 2rem;
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact__info-title,
+.contact__info-description {
+    margin: 0;
+}
+
+.contact__info-description {
+    padding: 1rem 0;
+}
+
+.contact__form {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2c96a5;
+    padding: 3rem 1.5rem 2rem;
+    border-radius: 7px;
+}
+
+.contact__form-group {
+    margin-bottom: var(--margen-4);
+}
+
+.contact__form-label {
+    display: block;
+    margin: var(--margen-1);
+}
+
+.contact_form-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    font-weight: var(--font-semi-bold);
+}
+
+.contact__form-button {
+    display: flex;
+    justify-content: center;
 }
