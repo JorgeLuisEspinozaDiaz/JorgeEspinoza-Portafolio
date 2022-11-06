@@ -14,6 +14,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Jorge Luis Espinoza Diaz</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
 
 <body>
@@ -36,9 +38,34 @@
     </header>
     <main>
 
-        <Section>
-            <h2></h2>
-            <div></div>
+        <Section class="Home">
+
+            <div class="home_container grid--container">
+                <div class="home__image">
+                    <img class="home__image-home"
+                        src="https://ca.slack-edge.com/T043NQMJDDW-U0435ST0PBL-340b779c96eb-512" alt="img">
+                </div>
+                <div class="redes">
+                    <ul class="home__social">
+                        <li class="home__social-item"><a class="home__social-link" href="#">
+                                <i class='bx bxl-linkedin'></i></a></li>
+                        <li class="home__social-item"><a class="home__social-link" href="#">
+                                <i class='bx bxl-instagram'></i></a></li>
+                        <li class="home__social-item"><a class="home__social-link" href="#">
+                                <i class='bx bxl-facebook-square'></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="home__info">
+                    <h1 class="home__title">👌Hey, soy Jorge<br>Espinoza</h1>
+                    <p class="home__description">Soy desarrollador web, apasionado
+                        por la tecnologia y la programación</p>
+                </div>
+
+                <div class="home__buttons">
+                    <button class="btn btn--primary" type="button">Descarga CV</button>
+                </div>
+            </div>
         </Section>
 
         <Section>
@@ -51,20 +78,8 @@
     <footer>
         &copy;Hecho por Jorge Espinoza
     </footer>
-    <script>
 
-        const btnOpen = document.querySelector('.btn__open')
-        const btnClose = document.querySelector('.btn__close')
-        const menu = document.querySelector('.navbar__menu')
-
-        btnOpen.onclick = function () {
-            menu.classList.add('show--menu')
-        }
-        btnClose.onclick = function () {
-            menu.classList.remove('show--menu')
-        }
-
-    </script>
 </body>
+<script src="assets/js/JS.js"></script>
 
 </html>
