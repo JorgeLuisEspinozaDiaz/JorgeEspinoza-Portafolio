@@ -74,9 +74,12 @@ img {
 
 }
 
+
+
+
 /*Clases rusables*/
 .section {
-    padding: 32px 0;
+    padding: 20px 0;
     margin: 0px;
 
 }
@@ -124,6 +127,7 @@ img {
         box-shadow: var(--box-shadown);
         padding: 4.5rem 1rem 1rem;
         transition: .75s;
+
 
 
     }
@@ -199,19 +203,20 @@ img {
     color: #fff;
 }
 
+
+
+
 .home__image-home {
     border-radius: 50%;
+    height: 290px;
     object-fit: cover;
+    float: right;
 
 }
 
 .home_container {
     row-gap: 1.5rem;
     padding: var(--header-heigth) 0 2rem;
-
-
-
-
 }
 
 
@@ -226,10 +231,19 @@ img {
 
 .home__social-link {
 
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 50%;
-
 }
+
+
+.home__buttons .btn {
+    height: 3rem;
+}
+
+.bxs-download {
+    font-size: 1.5rem;
+}
+
 
 .home__title,
 .home__description {
@@ -281,6 +295,7 @@ img {
 
 .about {
     background-color: var(--bg-color);
+    color: white;
 }
 
 
@@ -292,8 +307,13 @@ img {
     text-align: center;
     padding: 0;
     margin: 0;
+    color: black;
+
 }
 
+.about__tags-title {
+    color: var(--text-primary);
+}
 
 
 .about__cards {
@@ -339,6 +359,10 @@ img {
 
 .projects__container {
     gap: 2rem;
+}
+
+.projects {
+    overflow: hidden;
 }
 
 .projects__inner {
@@ -420,7 +444,16 @@ img {
     font-weight: var(--font-semi-bold);
 }
 
-.contact__form-button {
+.contact__form-buttons {
     display: flex;
     justify-content: center;
+
+}
+
+.contact__form-button {
+    border: 1px solid #03051c;
+}
+
+.contact_form-textArea {
+    resize: none;
 }
