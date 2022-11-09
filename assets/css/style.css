@@ -58,6 +58,7 @@ body {
 
 }
 
+
 ul {
     padding: 0;
     margin: 0;
@@ -74,6 +75,9 @@ img {
 
 }
 
+.textArea {
+    width: 52px;
+}
 
 
 
@@ -118,6 +122,7 @@ img {
 
 
 
+
 @media (max-width: 768px) {
     .navbar__menu {
         position: fixed;
@@ -128,10 +133,8 @@ img {
         box-shadow: var(--box-shadown);
         padding: 4.5rem 1rem 1rem;
         transition: .75s;
-
-
-
     }
+
 }
 
 
@@ -570,6 +573,9 @@ img {
     .contact__container {
         grid-template-columns: .5fr 1fr;
         justify-content: center;
+
+
+
     }
 
     .footer__container {
@@ -591,5 +597,9 @@ img {
 
     .project__description {
         text-align: center;
+    }
+
+    .footer__container {
+        column-gap: 10rem;
     }
 }
