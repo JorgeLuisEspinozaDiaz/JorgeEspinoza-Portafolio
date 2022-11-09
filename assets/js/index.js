@@ -4,25 +4,25 @@ window.sr = ScrollReveal();
 sr.reveal('.home__info', {
     duration: 3000,
     origin: 'right',
-    distance: '-1000px'
+    distance: '-10px'
 
 });
 
 
 
-sr.reveal('.home__image', {
-    duration: 3000,
-    origin: 'left',
-    distance: '-1000px'
+// sr.reveal('.home__image', {
+//     duration: 3000,
+//     origin: 'left',
+//     distance: '-10px'
 
-});
+// });
 
 
-sr.reveal('.Home', {
-    duration: 3000,
-    origin: 'bottom',
-    distance: '-100px'
-});
+// sr.reveal('.Home', {
+//     duration: 3000,
+//     origin: 'bottom',
+//     distance: '-100px'
+// });
 
 
 sr.reveal('.about', {
@@ -43,3 +43,26 @@ sr.reveal('.projects__project', {
     origin: 'bottom',
     distance: '-100px'
 });
+
+
+
+
+sr.reveal('.contact__info', {
+    duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+sr.reveal('.contact__form', {
+    duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+sr.reveal('.footer', {
+    duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+
+
