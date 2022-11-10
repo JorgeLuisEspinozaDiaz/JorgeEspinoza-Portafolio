@@ -9,3 +9,6 @@ btnOpen.onclick = function () {
 btnClose.onclick = function () {
     menu.classList.remove('show--menu')
 }
+
+
+
