@@ -242,6 +242,7 @@ img {
     font-size: 1.5rem;
     padding: 12px;
 
+
 }
 
 .home__social-item {
@@ -321,6 +322,7 @@ img {
 
 .about__card-title {
     color: var(--text-primary);
+    text-align: center;
 }
 
 .about__description {
@@ -337,6 +339,7 @@ img {
 
 .about__tags-title {
     color: var(--text-primary);
+    text-align: center;
 }
 
 
@@ -355,6 +358,10 @@ img {
     border-radius: 5px;
     padding: 4rem 2rem 2rem;
     box-shadow: var(--box-shadown);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -363,7 +370,11 @@ img {
     background-color: #191d50;
     font-size: 2rem;
     border-radius: 50%;
+
+
+
 }
+
 
 .about__tags-container {
     display: flex;
